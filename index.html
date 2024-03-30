@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netigian IT</title>
+
+    <!-- Fav-icon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <!-- Daisy UI and Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts CDN Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Cdn -->
+    <script src="https://kit.fontawesome.com/aa9fec4253.js" crossorigin="anonymous"></script>
+
+    <!-- Customize Script -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'common-green': '#15BF86',
+                    }
+                }
+            }
+        }
+    </script>
+
+
+    <!-- Customize CSS -->
+    <style>
+        .font-roboto {
+            font-family: "Roboto", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="font-roboto">
+
+<header>
+    <nav class="max-w-[700px] mx-auto px-4">
+        <div class="navbar">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 w-52">
+                  <li><a>Item 1</a></li>
+                  <li>
+                    <a>Parent</a>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <a class=""><img class="w-40" src="https://i.ibb.co/P5D1ChB/Netigian-Simple-PNG-File.png" alt=""></a>
+            </div>
+            <div class="navbar-end hidden lg:flex">
+              <ul class="menu text-md font-semibold menu-horizontal">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+    </nav>
+    <div>
+        <div class="hero min-h-[90vh]" style="background-image: url(https://i.ibb.co/1Mgp8hm/hero2.jpg);">
+            <div class="hero-overlay bg-opacity-30"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-xl">
+                <h2 class="mb-8 text-2xl font-semibold text-white">WE CREATE EXCEPTIONAL</h2>
+                <h1 class="mb-5 text-5xl leading-tight font-semibold text-white">WEBITES, MOBILE APPS
+                    DIGITAL CAMPAIGNS</h1>
+              </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <section id="our-deal-creativity" class="my-10 max-w-[700px] mx-auto px-4">
+        <div class="services-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-8">
+            <div class="single-content mx-auto shadow-md bg-common-green p-4 border rounded-xl text-start">
+                <div class="flex items-center mb-2">
+                    <img class="w-1/2" src="https://i.ibb.co/GtgLCYb/service10.png" alt="">
+                </div>
+                <h1 class="font-bold text-lg text-white">Best Theme you will Ever Purchase on ThemeForest</h1>
+            </div>
+
+            <div class="single-content mx-auto shadow-md bg-sky-500 p-4 border rounded-xl text-start">
+                <div class="flex items-center mb-2">
+                    <img class="w-1/2" src="https://i.ibb.co/B3D6DwM/service11.png" alt="">
+                </div>
+                <h1 class="font-bold text-lg text-white">Easy to customize and fully Featured Designs</h1>
+            </div>
+
+            <div class="single-content mx-auto shadow-md bg-[#E5154D] p-4 border rounded-xl text-start">
+                <div class="flex items-center mb-2">
+                    <img class="w-1/2" src="https://i.ibb.co/7bhVgN3/service12.png" alt="">
+                </div>
+                <h1 class="font-bold text-lg text-white">Everything you need to build an Awesome Website</h1>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="features" class="my-10 max-w-[700px] mx-auto px-4">
+
+        <div class="thing-contents max-w-[700px] mx-auto my-10 px-4 md:px-0 pt-6 md:pt-0 flex flex-col md:flex-row justify-between items-center gap-10"> 
+            <div class="things-right flex-1">
+                <h2 class="text-3xl font-bold text-black">We are a digital first Agency over 10 years Experience</h2>
+                <p class="text-gray-500 my-4">Lorem Ipsum is that it has distribution of letters, as to using making it look packages and web page editors now use as their default and a search will uncover many web sites.</p>
+         
+            </div>
+
+            <div class="things-left flex-1">
+                <img class="mx-auto md:p-0 object-cover" src="https://i.ibb.co/ZWjshhj/about1.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="review" class="my-10 max-w-[700px] mx-auto px-4 ">
+
+        <div class="review-container grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div class="single-review flex gap-6">
+                <div class="image-profile">
+                    <img class="w-40 rounded-full" src="https://i.ibb.co/p05Vm9M/service20.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="font-bold text-xl">Creative Direction</h2>
+                    <p class="text-sm text-gray-500">Lorem Ipsum is simply text the printing typesetting industry has been</p>
+                </div>
+            </div>
+
+            <div class="single-review flex gap-6">
+                <div class="image-profile">
+                    <img class="w-40 rounded-full" src="https://i.ibb.co/SPv4g6W/service21.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="font-bold text-xl">Identity Systems</h2>
+                    <p class="text-sm text-gray-500">Lorem Ipsum is simply text the printing typesetting industry has been</p>
+                </div>
+            </div>
+
+            <div class="single-review flex gap-6">
+                <div class="image-profile">
+                    <img class="w-40 rounded-full" src="https://i.ibb.co/2kjGhGz/service22.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="font-bold text-xl">Brand Strategy</h2>
+                    <p class="text-sm text-gray-500">Lorem Ipsum is simply text the printing typesetting industry has been</p>
+                </div>
+            </div>
+
+            <div class="single-review flex gap-6">
+                <div class="image-profile">
+                    <img class="w-40 rounded-full" src="https://i.ibb.co/89vx9SS/service23.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="font-bold text-xl">Marketing Strategy</h2>
+                    <p class="text-sm text-gray-500">Lorem Ipsum is simply text the printing typesetting industry has been</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="innovation-section">
+        <div class="max-w-[700px] mx-auto my-10 px-4 bg-center bg-no-repeat" style="background-image: url(https://i.ibb.co/f1j2Brk/cta1.jpg);">
+            <div class="text-black text-center py-12 space-y-6">
+                <h2 class="font-bold text-common-green text-sm">CREATE A CAMPAIGN</h2>
+                <h1 class="text-2xl mx-auto font-semibold md:w-4/6">BLOOM WITH DIFFERENT LAYOUTSYOU CAN DO WITH FEW CLICKS</h1>
+                <p class="md:w-2/3 mx-auto text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur possi mus quod nemo. elit. Pariatur possimus quod nemo.</p>
+                <a href="#" class="px-8 py-4 font-semibold inline-block text-black bg-common-green text-sm">START NOW</a>
+            </div>      
+        </div>
+    </section>
+
+
+    <section id="raging-section" class="my-10 max-w-[700px] mx-auto px-4 md:px-0">
+        <div id="plan-title" class="mx-auto text-center">
+            <h1 class="text-4xl font-bold text-black uppercase">People Says</h1>
+        </div> 
+        <div class="services-content grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+            <div class="single-content mx-auto shadow-md p-2 px-6 border rounded-md text-center py-8 space-y-4">
+
+                <div class="flex justify-center items-center">
+                    <img class="w-28 rounded-full" src="https://i.ibb.co/nfgWbK3/test1.jpg" alt="">
+                </div>
+                <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla nec eros in ex volutpat consequa.</p>
+                <h2 class="font-bold text-xl">John Deo</h2>
+                <span class="text-md text-gray-500">CEO - ZED Tech</span>
+                <div>
+                    <div class="rating">
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500"  />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                      </div>
+                </div>
+
+            </div>
+
+            <div class="single-content mx-auto shadow-md p-2 px-6 border rounded-md text-center py-8 space-y-4">
+
+                <div class="flex justify-center items-center">
+                    <img class="w-28 rounded-full" src="https://i.ibb.co/nwB21NY/test2.jpg" alt="">
+                </div>
+                <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla nec eros in ex volutpat consequa.</p>
+                <h2 class="font-bold text-xl">James Taylor</h2>
+                <span class="text-md text-gray-500">CEO - XEON</span>
+                <div>
+                    <div class="rating">
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                      </div>
+                </div>
+
+            </div>
+      
+        </div>
+
+
+        
+    </section>
+
+
+<section>
+    <div class="max-w-[700px] bg-green-100 px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center mx-auto gap-30 text-white py-14">
+        <div class="text-center flex justify-center items-center mb-6 md:mb-0">
+            <img src="https://i.ibb.co/jwSg2kq/sponsor-1-1.png" alt="">
+        </div>
+        <div class="text-center flex justify-center items-center mb-6 md:mb-0">
+            <img src="https://i.ibb.co/Wkj7rSR/sponsor-2.png" alt="">
+        </div>
+        <div class="text-center flex justify-center items-center mb-6 md:mb-0">
+            <img src="https://i.ibb.co/dgY3w62/sponsor-3.png" alt="">
+        </div>
+        <div class="text-center flex justify-center items-center mb-6 md:mb-0">
+            <img src="https://i.ibb.co/4tJ1xrT/sponsor-4.png" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+</main>
+
+
+
+
+<div class="bg-black text-white">
+    <footer class="footer p-10 max-w-[700px] mx-auto px-4">
+        <nav>
+          <div>
+            <a class=""><img class="w-32 mb-2" src="https://i.ibb.co/P5D1ChB/Netigian-Simple-PNG-File.png" alt=""></a>
+          </div>
+          <span class="my-4">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit <br> adipiscing elit.</span>
+          <div class="flex items-center justify-center gap-3">
+            <li class="list-none"><a href="#"><i class="fa-brands fa-twitter text-sm h-6 w-6 flex justify-center items-center bg-white p-2 rounded-full text-black"></i></a></li>
+            <li class="list-none"><a href="#"><i class="fa-brands fa-facebook-f text-sm h-6 w-6 flex justify-center items-center bg-white p-2 rounded-full text-black"></i></a></li>
+            <li class="list-none"><a href="#"><i class="fa-brands fa-instagram text-sm h-6 w-6 flex justify-center items-center bg-white p-2 rounded-full text-black"></i></a></li>
+            <li class="list-none"><a href="#"><i class="fa-brands fa-linkedin-in text-sm h-6 w-6 flex justify-center items-center bg-white p-2 rounded-full text-black"></i></a></li>
+            <li class="list-none"><a href="#"><i class="fa-brands fa-pinterest-p text-sm h-6 w-6 flex justify-center items-center bg-white p-2 rounded-full text-black"></i></a></li>
+    
+          </div>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Contact Info</h6> 
+          <span class="my-2">Agency Studio <br>
+            007,The Pilo Wood <br>
+            Adelaide,S2 8GY.</span>
+
+        <span class="">Email: info@domain.com</span>
+        <span>Phone: +44 1234567890</span>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Legal</h6> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+    </footer> 
+    <div class="border-t border-white border-1"></div>
+    <footer class="footer py-4 max-w-[700px] mx-auto px-4">
+        <aside class="items-center grid-flow-col">
+          <span>&copy; 2024 Netigian IT. All Right Resurved</span>
+        </aside> 
+        <nav class="md:place-self-center md:justify-self-end">
+            <span>Unsubscribe</span>
+        </nav>
+    </footer>
+</div>
+    
+
+
+</body>
+
+</html>
